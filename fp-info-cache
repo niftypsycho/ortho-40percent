@@ -1,4 +1,4 @@
-137093516628049
+140297763219381
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -4284,7 +4284,21 @@ CP_Tantalum_Case-X_EIA-7343-43_Wave
 0
 0
 CherryMX
-SW_Cherry-MX_1U
+SW_Cherry-MX_1U_PCB-Mount
+
+
+0
+2
+2
+CherryMX
+SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap
+
+
+0
+2
+2
+CherryMX
+SW_Cherry-MX_1U_Plate-Mount
 
 
 0
