@@ -1,4 +1,4 @@
-(module SW_Cherry-MX_1U_PCB-Mount (layer F.Cu) (tedit 5F1CD22A)
+(module SW_Cherry-MX_1U_PCB-Mount (layer F.Cu) (tedit 5F1DF11A)
   (fp_text reference REF** (at -3.5 2.54 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

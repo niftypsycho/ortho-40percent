@@ -1,72 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C
+# master-vampire_General_F
 #
-DEF C C 0 20 N Y 1 F N
-F0 "C" 150 100 50 H V L CNN
-F1 "C" 0 250 50 H I L CNN
-F2 "" -600 -200 50 H I C CNN
-F3 "" 150 100 50 H V C CNN
-F4 "1uF" 250 0 60 H V C CNN "Capacitance"
-F5 "50V" 500 -100 60 H I C CNN "Voltage Rating"
-F6 "X7R" 250 -100 60 H I C CNN "TempCo"
-F7 "±20%" 550 0 60 H I C CNN "Tolerance"
-F8 "0603" 250 -200 60 H I C CNN "Package"
-F9 "DNP" 50 350 50 H I C CNN "MPN"
-F10 "DNP" 150 450 50 H I C CNN "Manufacturer"
-F11 "DNP" 250 550 50 H I C CNN "Supplier"
-F12 "DNP" 350 650 50 H I C CNN "Supplier PN"
-$FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# D
-#
-DEF D D 0 20 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "D" 450 200 50 H I C CNN
-F2 "" -100 0 50 H I C CNN
-F3 "" 0 100 50 H I C CNN
-F4 "DNP" 0 -150 60 H I C CNN "MPN"
-F5 "DNP" 450 300 60 H I C CNN "Manufacturer"
-F6 "DNP" 300 400 50 H I C CNN "Supplier"
-F7 "DNP" 400 500 50 H I C CNN "Supplier PN"
-F8 "100V" -100 -150 50 H V C CNN "Voltage Rating"
-F9 "1A" 100 -150 50 H V C CNN "Current Rating"
-F10 "DNP" 700 800 50 H I C CNN "Package"
-$FPLIST
- Diode_*
- D-*
- *SingleDiode
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-X A A 150 0 100 L 50 50 1 1 P
-X K K -150 0 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# F
-#
-DEF F F 0 0 N Y 1 F N
+DEF master-vampire_General_F F 0 0 N Y 1 F N
 F0 "F" 0 80 50 H V C CNN
-F1 "F" 0 0 50 H I C CNN
+F1 "master-vampire_General_F" 0 0 50 H I C CNN
 F2 "" 0 -70 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
 F4 "DNP" 0 0 50 V I C CNN "Manufacturer"
@@ -83,11 +22,11 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L
+# master-vampire_General_L
 #
-DEF L L 0 40 N N 1 F N
+DEF master-vampire_General_L L 0 40 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "L" 550 250 50 H I C CNN
+F1 "master-vampire_General_L" 550 250 50 H I C CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 F4 "1uH" -100 -100 60 H V C CNN "Inductance"
@@ -113,11 +52,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R
+# master-vampire_General_R
 #
-DEF R R 0 0 N Y 1 F N
+DEF master-vampire_General_R R 0 0 N Y 1 F N
 F0 "R" 0 100 50 H V C CNN
-F1 "R" 0 250 50 H I C CNN
+F1 "master-vampire_General_R" 0 250 50 H I C CNN
 F2 "" 0 70 50 H V C CNN
 F3 "" 0 0 50 V V C CNN
 F4 "10k" 0 -100 60 H V C CNN "Resistance"
@@ -139,11 +78,11 @@ X ~ 2 -150 0 50 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TVS_Bidirectional
+# master-vampire_General_TVS_Bidirectional
 #
-DEF TVS_Bidirectional TVS 0 20 N N 1 F N
+DEF master-vampire_General_TVS_Bidirectional TVS 0 20 N N 1 F N
 F0 "TVS" 0 150 50 H V C CNN
-F1 "TVS_Bidirectional" 50 300 50 H I C CNN
+F1 "master-vampire_General_TVS_Bidirectional" 50 300 50 H I C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" 50 100 50 H I C CNN
 F4 "DNP" 250 450 50 H V C CNN "MPN"
@@ -170,11 +109,11 @@ X K K -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB-C_Receptacle-24
+# master-vampire_General_USB-C_Receptacle-24
 #
-DEF USB-C_Receptacle-24 J 0 20 Y Y 1 F N
+DEF master-vampire_General_USB-C_Receptacle-24 J 0 20 Y Y 1 F N
 F0 "J" 300 -1200 50 H V C CNN
-F1 "USB-C_Receptacle-24" 0 1200 50 H V C CNN
+F1 "master-vampire_General_USB-C_Receptacle-24" 0 1200 50 H V C CNN
 F2 "" 50 -1150 50 H I C CNN
 F3 "" 50 -1150 50 H I C CNN
 F4 "DNP" 0 0 50 H I C CNN "Manufacturer"
@@ -214,11 +153,11 @@ X SHIELD S -250 -1350 200 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# U_TPD4E05U06DQAR
+# master-vampire_General_U_TPD4E05U06DQAR
 #
-DEF U_TPD4E05U06DQAR U 0 0 Y Y 1 F N
+DEF master-vampire_General_U_TPD4E05U06DQAR U 0 0 Y Y 1 F N
 F0 "U" 0 550 50 H V C CNN
-F1 "U_TPD4E05U06DQAR" 0 450 50 H I C CNN
+F1 "master-vampire_General_U_TPD4E05U06DQAR" 0 450 50 H I C CNN
 F2 "" 375 -350 50 H I C CNN
 F3 "" 375 -350 50 H I C CNN
 F4 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer"
@@ -293,6 +232,80 @@ X NC 6 500 -300 200 L 50 50 1 1 B
 X NC 7 500 300 200 L 50 50 1 1 B
 X GND 8 100 -600 200 U 50 50 1 1 W
 X NC 9 -500 -300 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDPWR
+#
+DEF power_GNDPWR #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -200 50 H I C CNN
+F1 "power_GNDPWR" 0 -130 50 H V C CNN
+F2 "" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 3 0 1 8 -40 -50 -50 -80 -50 -80 N
+P 3 0 1 8 -20 -50 -30 -80 -30 -80 N
+P 3 0 1 8 0 -50 -10 -80 -10 -80 N
+P 3 0 1 8 20 -50 10 -80 10 -80 N
+P 3 0 1 8 40 -50 -40 -50 -40 -50 N
+P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
+X GNDPWR 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VBUS
+#
+DEF power_VBUS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VBUS" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VBUS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
