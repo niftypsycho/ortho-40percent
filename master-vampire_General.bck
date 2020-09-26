@@ -6,8 +6,16 @@ K F fuse
 F ~
 $ENDCMP
 #
+$CMP U_ATmega32u4-AU
+D IC MCU 8BIT 32KB FLASH 44TQFP
+$ENDCMP
+#
 $CMP U_TPD4E05U06DQAR
 D TVS DIODE 5.5V 14V 10SON
+$ENDCMP
+#
+$CMP XTAL_4Lead
+D Generic crystal with 4 leads
 $ENDCMP
 #
 #End Doc Library
