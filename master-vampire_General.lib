@@ -118,6 +118,28 @@ X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# H_MountingHole_Screw_withPin
+#
+DEF H_MountingHole_Screw_withPin H 0 20 Y Y 1 F N
+F0 "H" 10 180 50 H V C CNN
+F1 "H_MountingHole_Screw_withPin" -20 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DNP" 100 200 50 H I C CNN "MPN"
+F5 "DNP" 200 300 50 H I C CNN "Manufacturer"
+F6 "DNP" 300 400 50 H I C CNN "Supplier PN"
+F7 "DNP" 400 500 50 H I C CNN "Supplier"
+F8 "DNP" 500 600 50 H I C CNN "Package"
+DRAW
+C 0 0 51 0 1 0 N
+P 2 0 1 0 -100 50 -100 -50 N
+P 2 0 1 0 100 50 100 -50 N
+P 3 0 1 0 -100 50 0 110 100 50 N
+P 3 0 1 0 100 -50 0 -110 -100 -50 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # L
 #
 DEF L L 0 40 N N 1 F N

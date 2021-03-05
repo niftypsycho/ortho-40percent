@@ -372,7 +372,7 @@ U 1 1 5F25C739
 P 4600 1700
 F 0 "TVS1" V 4554 1780 50  0000 L CNN
 F 1 "TVS_Bidirectional" H 4650 2000 50  0001 C CNN
-F 2 "ortho-40percent:D_SOD-123F" H 4550 1700 50  0001 C CNN
+F 2 "ortho-40percent:SOD-123F" H 4550 1700 50  0001 C CNN
 F 3 "" H 4650 1800 50  0001 C CNN
 F 4 "SMF9V0TFTR" V 4645 1780 50  0000 L CNN "MPN"
 F 5 "Rohm Semiconductor" H 4950 2250 50  0001 C CNN "Manufacturer"
@@ -1043,4 +1043,133 @@ U 5F33A928
 F0 "KeyMatrix" 50
 F1 "KeyMatrix.sch" 50
 $EndSheet
+$Comp
+L power:VCC #PWR026
+U 1 1 604393E0
+P 8500 1850
+F 0 "#PWR026" H 8500 1700 50  0001 C CNN
+F 1 "VCC" H 8517 2023 50  0000 C CNN
+F 2 "" H 8500 1850 50  0001 C CNN
+F 3 "" H 8500 1850 50  0001 C CNN
+	1    8500 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1850 8500 2000
+Connection ~ 8500 2000
+$Comp
+L master-vampire_General:H_MountingHole_Screw_withPin H1
+U 1 1 604407EC
+P 1500 5100
+F 0 "H1" V 1650 5050 50  0000 L CNN
+F 1 "H_MountingHole_Screw_withPin" H 1628 5055 50  0001 L CNN
+F 2 "ortho-40percent:H_Screw-M2_Countersunk" H 1500 5100 50  0001 C CNN
+F 3 "" H 1500 5100 50  0001 C CNN
+F 4 "DNP" H 1600 5300 50  0001 C CNN "MPN"
+F 5 "DNP" H 1700 5400 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 1800 5500 50  0001 C CNN "Supplier PN"
+F 7 "DNP" H 1900 5600 50  0001 C CNN "Supplier"
+F 8 "DNP" H 2000 5700 50  0001 C CNN "Package"
+	1    1500 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L master-vampire_General:H_MountingHole_Screw_withPin H2
+U 1 1 6041FFC7
+P 1750 5100
+F 0 "H2" V 1900 5050 50  0000 L CNN
+F 1 "H_MountingHole_Screw_withPin" H 1878 5055 50  0001 L CNN
+F 2 "ortho-40percent:H_Screw-M2_Countersunk" H 1750 5100 50  0001 C CNN
+F 3 "" H 1750 5100 50  0001 C CNN
+F 4 "DNP" H 1850 5300 50  0001 C CNN "MPN"
+F 5 "DNP" H 1950 5400 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 2050 5500 50  0001 C CNN "Supplier PN"
+F 7 "DNP" H 2150 5600 50  0001 C CNN "Supplier"
+F 8 "DNP" H 2250 5700 50  0001 C CNN "Package"
+	1    1750 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L master-vampire_General:H_MountingHole_Screw_withPin H3
+U 1 1 60420244
+P 2000 5100
+F 0 "H3" V 2150 5050 50  0000 L CNN
+F 1 "H_MountingHole_Screw_withPin" H 2128 5055 50  0001 L CNN
+F 2 "ortho-40percent:H_Screw-M2_Countersunk" H 2000 5100 50  0001 C CNN
+F 3 "" H 2000 5100 50  0001 C CNN
+F 4 "DNP" H 2100 5300 50  0001 C CNN "MPN"
+F 5 "DNP" H 2200 5400 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 2300 5500 50  0001 C CNN "Supplier PN"
+F 7 "DNP" H 2400 5600 50  0001 C CNN "Supplier"
+F 8 "DNP" H 2500 5700 50  0001 C CNN "Package"
+	1    2000 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L master-vampire_General:H_MountingHole_Screw_withPin H4
+U 1 1 60420819
+P 2250 5100
+F 0 "H4" V 2400 5050 50  0000 L CNN
+F 1 "H_MountingHole_Screw_withPin" H 2378 5055 50  0001 L CNN
+F 2 "ortho-40percent:H_Screw-M2_Countersunk" H 2250 5100 50  0001 C CNN
+F 3 "" H 2250 5100 50  0001 C CNN
+F 4 "DNP" H 2350 5300 50  0001 C CNN "MPN"
+F 5 "DNP" H 2450 5400 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 2550 5500 50  0001 C CNN "Supplier PN"
+F 7 "DNP" H 2650 5600 50  0001 C CNN "Supplier"
+F 8 "DNP" H 2750 5700 50  0001 C CNN "Package"
+	1    2250 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR025
+U 1 1 60421692
+P 1500 5500
+F 0 "#PWR025" H 1500 5300 50  0001 C CNN
+F 1 "GNDPWR" H 1550 5400 25  0000 R CNN
+F 2 "" H 1500 5450 50  0001 C CNN
+F 3 "" H 1500 5450 50  0001 C CNN
+	1    1500 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5400 1500 5450
+Wire Wire Line
+	1750 5400 1750 5450
+Wire Wire Line
+	1750 5450 1500 5450
+Connection ~ 1500 5450
+Wire Wire Line
+	1500 5450 1500 5500
+Wire Wire Line
+	2000 5400 2000 5450
+Wire Wire Line
+	2000 5450 1750 5450
+Connection ~ 1750 5450
+Wire Wire Line
+	2250 5400 2250 5450
+Wire Wire Line
+	2250 5450 2000 5450
+Connection ~ 2000 5450
+$Comp
+L master-vampire_General:H_MountingHole_Screw_withPin H?
+U 1 1 6043642C
+P 2500 5100
+F 0 "H?" V 2650 5050 50  0000 L CNN
+F 1 "H_MountingHole_Screw_withPin" H 2628 5055 50  0001 L CNN
+F 2 "ortho-40percent:H_Screw-M2_Countersunk" H 2500 5100 50  0001 C CNN
+F 3 "" H 2500 5100 50  0001 C CNN
+F 4 "DNP" H 2600 5300 50  0001 C CNN "MPN"
+F 5 "DNP" H 2700 5400 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 2800 5500 50  0001 C CNN "Supplier PN"
+F 7 "DNP" H 2900 5600 50  0001 C CNN "Supplier"
+F 8 "DNP" H 3000 5700 50  0001 C CNN "Package"
+	1    2500 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 5400 2500 5450
+Wire Wire Line
+	2500 5450 2250 5450
+Connection ~ 2250 5450
 $EndSCHEMATC
