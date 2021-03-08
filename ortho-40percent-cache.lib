@@ -239,13 +239,13 @@ X out 4 200 -100 100 L 50 50 0 1 B I
 ENDDRAW
 ENDDEF
 #
-# master-vampire_General_TVS_Bidirectional
+# master-vampire_General_TVS_Unidirectional
 #
-DEF master-vampire_General_TVS_Bidirectional TVS 0 20 N N 1 F N
+DEF master-vampire_General_TVS_Unidirectional TVS 0 20 N N 1 F N
 F0 "TVS" 0 150 50 H V C CNN
-F1 "master-vampire_General_TVS_Bidirectional" 50 300 50 H I C CNN
-F2 "" -50 0 50 H I C CNN
-F3 "" 50 100 50 H I C CNN
+F1 "master-vampire_General_TVS_Unidirectional" 50 300 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 100 100 50 H I C CNN
 F4 "DNP" 250 450 50 H V C CNN "MPN"
 F5 "DNP" 350 550 50 H I C CNN "Manufacturer"
 F6 "DNP" 450 650 50 H I C CNN "Supplier PN"
@@ -260,13 +260,12 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 10 0 -50 50 -50 N
-P 2 0 1 10 0 50 -50 50 N
-P 2 0 1 8 0 50 0 -50 N
-P 4 0 1 8 0 0 -100 50 -100 -50 0 0 N
-P 4 0 1 8 100 50 100 -50 0 0 100 50 N
-X A A 200 0 100 L 50 50 1 1 P
-X K K -200 0 100 R 50 50 1 1 P
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 0 -50 N
+P 2 0 1 10 -50 50 -100 50 N
+P 4 0 1 8 -50 0 50 -50 50 50 -50 0 N
+X A A 150 0 100 L 50 50 1 1 P
+X K K -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
