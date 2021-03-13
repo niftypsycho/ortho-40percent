@@ -1186,4 +1186,6 @@ F 3 "" H 1500 5500 50  0001 C CNN
 	1    1500 5500
 	1    0    0    -1  
 $EndComp
+Text Notes 6750 1750 0    50   ~ 0
+Star ground for micro connections
 $EndSCHEMATC

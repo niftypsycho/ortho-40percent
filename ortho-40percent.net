@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Christian\Documents\GitHub\ortho-40percent\ortho-40percent.sch)
-    (date "3/7/2021 10:22:18 PM")
+    (date "3/13/2021 4:28:19 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1023,7 +1023,7 @@
       (tstamp 5F50B7D8))
     (comp (ref SW50)
       (value CherryMX)
-      (footprint CherryMX:SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap)
+      (footprint CherryMX:SW_Cherry-MX_2U_PCB-Mount_Kailh-Hot-Swap)
       (fields
         (field (name MPN) DNP)
         (field (name Manufacturer) DNP)
@@ -1231,7 +1231,7 @@
       (tstamp 5F50B8F8))
     (comp (ref SW51)
       (value CherryMX)
-      (footprint CherryMX:SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap)
+      (footprint CherryMX:SW_Cherry-MX_2U_PCB-Mount_Kailh-Hot-Swap)
       (fields
         (field (name MPN) DNP)
         (field (name Manufacturer) DNP)
@@ -1439,7 +1439,7 @@
       (tstamp 5F52F48F))
     (comp (ref SW52)
       (value CherryMX)
-      (footprint CherryMX:SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap)
+      (footprint CherryMX:SW_Cherry-MX_2U_PCB-Mount_Kailh-Hot-Swap)
       (fields
         (field (name MPN) DNP)
         (field (name Manufacturer) DNP)
