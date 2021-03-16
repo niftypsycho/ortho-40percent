@@ -1653,48 +1653,6 @@ F 10 "SOD-123" H 8450 8300 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MKB_Switches:CherryMX SW52
-U 1 1 5F52F49E
-P 8700 6950
-F 0 "SW52" H 8833 7355 50  0000 C CNN
-F 1 "CherryMX" H 8833 7264 50  0000 C CNN
-F 2 "CherryMX:SW_Cherry-MX_2U_PCB-Mount_Kailh-Hot-Swap" H 9600 7050 50  0001 C CNN
-F 3 "" H 9500 7050 50  0001 C CNN
-F 4 "DNP" H 8700 6950 50  0001 C CNN "Manufacturer"
-F 5 "DNP" H 8700 6950 50  0001 C CNN "MPN"
-F 6 "DNP" H 8700 6950 50  0001 C CNN "Supplier"
-F 7 "DNP" H 8700 6950 50  0001 C CNN "Supplier PN"
-F 8 "2u" H 8833 7173 50  0000 C CNN "Package"
-	1    8700 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 6900 9050 6900
-Wire Wire Line
-	8700 7250 8700 7300
-Wire Wire Line
-	8700 7300 8550 7300
-Wire Wire Line
-	8550 7300 8550 7350
-$Comp
-L master-vampire_General:D D51
-U 1 1 5F52F4B3
-P 8550 7500
-F 0 "D51" V 8603 7421 50  0000 R CNN
-F 1 "D" H 9000 7700 50  0001 C CNN
-F 2 "ortho-40percent:SOD-123" H 8450 7500 50  0001 C CNN
-F 3 "" H 8550 7600 50  0001 C CNN
-F 4 "1N4148WTR" V 8504 7421 60  0000 R CNN "MPN"
-F 5 "SMC Diode Solutions" H 9000 7800 60  0001 C CNN "Manufacturer"
-F 6 "DigiKey" H 8850 7900 50  0001 C CNN "Supplier"
-F 7 "1655-1360-1-ND" H 8950 8000 50  0001 C CNN "Supplier PN"
-F 8 "75V" V 8550 7421 50  0001 R CNN "Voltage Rating"
-F 9 "250mA" V 8459 7421 50  0001 R CNN "Current Rating"
-F 10 "SOD-123" H 9250 8300 50  0001 C CNN "Package"
-	1    8550 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MKB_Switches:CherryMX SW7
 U 1 1 5F5A2B38
 P 3100 8150
@@ -2274,9 +2232,6 @@ Wire Wire Line
 Connection ~ 9200 4500
 Wire Wire Line
 	9200 4500 9200 5700
-Connection ~ 9200 5700
-Wire Wire Line
-	9200 5700 9200 6900
 Wire Wire Line
 	2950 2850 3750 2850
 Connection ~ 3750 2850
@@ -2374,9 +2329,6 @@ Wire Wire Line
 Connection ~ 6950 7650
 Wire Wire Line
 	6950 7650 7750 7650
-Connection ~ 7750 7650
-Wire Wire Line
-	7750 7650 8550 7650
 Connection ~ 3750 8850
 Wire Wire Line
 	3750 8850 2950 8850

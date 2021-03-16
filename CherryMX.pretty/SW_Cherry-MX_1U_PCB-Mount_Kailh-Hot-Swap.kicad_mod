@@ -1,4 +1,4 @@
-(module SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap (layer F.Cu) (tedit 604D2E1F)
+(module SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap (layer F.Cu) (tedit 604D6E39)
   (attr smd)
   (fp_text reference REF** (at -3.5 2.54 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -91,5 +91,10 @@
     (offset (xyz 0.325 -3.175 -3.05))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/ortho-40percent.3dshapes/DSA 1u.step"
+    (offset (xyz 5.28 -2.24 12))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
