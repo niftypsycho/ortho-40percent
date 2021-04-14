@@ -313,18 +313,18 @@ X SHIELD S -250 -1350 200 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# master-vampire_General_U_ATmega32u4-AU
+# master-vampire_General_U_ATmega32u4-MU
 #
-DEF master-vampire_General_U_ATmega32u4-AU U 0 20 Y Y 1 F N
+DEF master-vampire_General_U_ATmega32u4-MU U 0 20 Y Y 1 F N
 F0 "U" -450 1650 50 H V C CNN
-F1 "master-vampire_General_U_ATmega32u4-AU" -100 -100 50 H I C CNN
-F2 "ortho-40percent:TQFP-44" -100 -100 50 H I C CNN
+F1 "master-vampire_General_U_ATmega32u4-MU" -100 -100 50 H I C CNN
+F2 "ortho-40percent:VQFN-44-1EP_7x7mm_P0.5mm_ThermalVias" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 F4 "Microchip Technology" -100 -100 50 H I C CNN "Manufacturer"
-F5 "ATMEGA32U4-AUR" 0 -1550 50 H V C CNN "MPN"
+F5 "ATMEGA32U4-MU" 150 -1550 50 H V C CNN "MPN"
 F6 "DNP" -100 -100 50 H I C CNN "Supplier"
 F7 "DNP" -100 -100 50 H I C CNN "Supplier PN"
-F8 "TQFP-44" -100 -100 50 H I C CNN "Package"
+F8 "VQFN-44-1EP" -100 -100 50 H I C CNN "Package"
 DRAW
 S -500 1600 500 -1500 0 1 4 f
 X PF0 41 700 -900 200 L 50 50 0 0 B
@@ -366,6 +366,7 @@ X PF1 40 700 -1000 200 L 50 50 1 1 B
 X AREF 42 -700 0 200 R 50 50 1 1 I
 X GND 43 -700 -1400 200 R 50 50 1 1 W
 X AVCC 44 -700 1100 200 R 50 50 1 1 I
+X EP 45 -250 -1700 200 U 50 50 1 1 W
 X UGND 5 -700 -1000 200 R 50 50 1 1 W
 X UCAP 6 -700 -700 200 R 50 50 1 1 W
 X VBUS 7 -700 -200 200 R 50 50 1 1 W
