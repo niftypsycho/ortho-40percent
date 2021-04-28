@@ -1182,8 +1182,8 @@ F 2 "ortho-40percent:VQFN-44-1EP_7x7mm_P0.5mm_ThermalVias" H 9200 3400 50  0001 
 F 3 "" H 9200 3400 50  0001 C CNN
 F 4 "Microchip Technology" H 9200 3400 50  0001 C CNN "Manufacturer"
 F 5 "ATMEGA32U4-MU" H 9300 5173 50  0000 C CNN "MPN"
-F 6 "DNP" H 9200 3400 50  0001 C CNN "Supplier"
-F 7 "DNP" H 9200 3400 50  0001 C CNN "Supplier PN"
+F 6 "DigiKey" H 9200 3400 50  0001 C CNN "Supplier"
+F 7 "ATMEGA32U4-MU-ND" H 9200 3400 50  0001 C CNN "Supplier PN"
 F 8 "VQFN-44-1EP" H 9200 3400 50  0001 C CNN "Package"
 	1    9300 3500
 	1    0    0    -1  
