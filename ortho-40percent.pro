@@ -1,4 +1,4 @@
-update=4/28/2021 5:05:09 PM
+update=4/29/2021 8:10:51 PM
 version=1
 last_client=kicad
 [general]
@@ -257,4 +257,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=USB_diffPair
+Clearance=0.2
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.3
 dPairViaGap=0.25
