@@ -1201,4 +1201,8 @@ F 3 "" H 9050 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 5250 9050 5200
+Text Label 8150 3900 0    50   ~ 0
+D+
+Text Label 8150 4000 0    50   ~ 0
+D-
 $EndSCHEMATC
