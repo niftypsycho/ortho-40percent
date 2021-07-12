@@ -1289,17 +1289,17 @@ NoConn ~ 10000 2100
 NoConn ~ 10000 2200
 Wire Wire Line
 	10500 3700 10000 3700
-Text Label 10100 3700 0    50   ~ 0
+Text Label 10100 3900 0    50   ~ 0
 COL0
 Text Label 10100 2400 0    50   ~ 0
 COL1
 Text Label 10100 3800 0    50   ~ 0
 COL2
-Text Label 10100 3500 0    50   ~ 0
+Text Label 10100 3700 0    50   ~ 0
 COL3
-Text Label 10100 3400 0    50   ~ 0
+Text Label 10100 3500 0    50   ~ 0
 COL4
-Text Label 10100 3900 0    50   ~ 0
+Text Label 10100 3400 0    50   ~ 0
 COL5
 Text Label 10100 4200 0    50   ~ 0
 COL6

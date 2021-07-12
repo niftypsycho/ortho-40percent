@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name CherryMX)(type KiCad)(uri ${KIPRJMOD}/CherryMX.pretty)(options "")(descr ""))
   (lib (name ortho-40percent)(type KiCad)(uri ${KIPRJMOD}/ortho-40percent.pretty)(options "")(descr ""))
+  (lib (name graphics)(type KiCad)(uri C:/Users/Christian/Desktop/graphics)(options "")(descr ""))
 )
