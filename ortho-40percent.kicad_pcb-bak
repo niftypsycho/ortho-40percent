@@ -69,9 +69,9 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (grid_origin 52.5 235)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
-      (layerselection 0x310fc_ffffffff)
+      (layerselection 0x330fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -96,7 +96,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "fabrication/"))
+      (outputdirectory "fabrication/mvFang-1.0.0"))
   )
 
   (net 0 "")
@@ -11415,7 +11415,7 @@
   (segment (start 227.75 195.25) (end 228.25 195.25) (width 0.25) (layer F.Cu) (net 91))
   (segment (start 228.25 195.25) (end 228.75 195.75) (width 0.25) (layer F.Cu) (net 91))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 60F29D62) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 6217033F) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.25))
@@ -15542,16 +15542,16 @@
     )
     (filled_polygon
       (pts
-        (xy 249.847121 220.068235) (xy 249.495355 220.42) (xy 249.847121 220.771766) (xy 249.811766 220.807121) (xy 249.46 220.455355)
-        (xy 249.108235 220.807121) (xy 249.07288 220.771766) (xy 249.424645 220.42) (xy 249.07288 220.068235) (xy 249.108235 220.03288)
-        (xy 249.46 220.384645) (xy 249.811766 220.03288)
+        (xy 59.82594 220.089415) (xy 59.495355 220.42) (xy 59.906864 220.831509) (xy 59.90583 220.833056) (xy 59.871766 220.867121)
+        (xy 59.46 220.455355) (xy 59.089415 220.82594) (xy 59.061092 220.783553) (xy 59.424645 220.42) (xy 59.13288 220.128235)
+        (xy 59.166944 220.09417) (xy 59.168491 220.093136) (xy 59.46 220.384645) (xy 59.783553 220.061092)
       )
     )
     (filled_polygon
       (pts
-        (xy 59.82594 220.089415) (xy 59.495355 220.42) (xy 59.906864 220.831509) (xy 59.90583 220.833056) (xy 59.871766 220.867121)
-        (xy 59.46 220.455355) (xy 59.089415 220.82594) (xy 59.061092 220.783553) (xy 59.424645 220.42) (xy 59.13288 220.128235)
-        (xy 59.166944 220.09417) (xy 59.168491 220.093136) (xy 59.46 220.384645) (xy 59.783553 220.061092)
+        (xy 249.847121 220.068235) (xy 249.495355 220.42) (xy 249.847121 220.771766) (xy 249.811766 220.807121) (xy 249.46 220.455355)
+        (xy 249.108235 220.807121) (xy 249.07288 220.771766) (xy 249.424645 220.42) (xy 249.07288 220.068235) (xy 249.108235 220.03288)
+        (xy 249.46 220.384645) (xy 249.811766 220.03288)
       )
     )
     (filled_polygon
@@ -15817,7 +15817,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 60F29D5F) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 6217033C) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.25))
@@ -18333,7 +18333,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 60F29D5C) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 62170339) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 32) (thermal_gap 0.25) (thermal_bridge_width 0.25))
