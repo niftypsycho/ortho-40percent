@@ -1,4 +1,4 @@
-update=2/23/2022 10:19:28 PM
+update=2/24/2022 4:20:25 PM
 version=1
 last_client=kicad
 [general]
@@ -263,7 +263,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=fabrication/
+PlotDirectoryName=../PRODUCTION/10001 mvFang 40 Percent Ortholinear Keyboard w Hotswaps PCBA
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

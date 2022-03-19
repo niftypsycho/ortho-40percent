@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name MKB_Switches)(type Legacy)(uri ${KIPRJMOD}/MKB_Switches.lib)(options "")(descr ""))
-  (lib (name master-vampire_General)(type Legacy)(uri ${KIPRJMOD}/master-vampire_General.lib)(options "")(descr ""))
-)
