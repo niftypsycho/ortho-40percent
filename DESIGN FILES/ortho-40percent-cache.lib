@@ -470,6 +470,22 @@ X case 4 100 -100 30 U 25 20 1 1 W
 ENDDRAW
 ENDDEF
 #
+# master-vampire_M_StencilGuide
+#
+DEF master-vampire_M_StencilGuide M 0 20 Y Y 1 F N
+F0 "M" 0 125 50 H V C CNN
+F1 "master-vampire_M_StencilGuide" 0 -150 50 H I C CNN
+F2 "master-vampire:STENCIL_GUIDE_HOLE" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+F4 "DNP" -50 -150 50 H I C CNN "Manufacturer"
+F5 "DNP" 0 -150 50 H I C CNN "MPN"
+F6 "DNP" 0 -150 50 H I C CNN "MV PN"
+DRAW
+C 0 0 56 0 1 4 N
+C 0 0 71 0 1 4 f
+ENDDRAW
+ENDDEF
+#
 # master-vampire_USB-C_Receptacle-24
 #
 DEF master-vampire_USB-C_Receptacle-24 J 0 20 Y Y 1 F N

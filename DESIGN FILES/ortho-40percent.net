@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Christian\\Documents\\GitHub\\ortho-40percent\\DESIGN FILES\\ortho-40percent.sch")
-    (date "2/24/2022 5:53:20 PM")
+    (date "4/3/2022 11:10:57 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -425,6 +425,26 @@
       (libsource (lib master-vampire) (part C) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 621E57A6))
+    (comp (ref M1)
+      (value M_StencilGuide)
+      (footprint master-vampire:STENCIL_GUIDE_HOLE)
+      (fields
+        (field (name MPN) DNP)
+        (field (name "MV PN") DNP)
+        (field (name Manufacturer) DNP))
+      (libsource (lib master-vampire) (part M_StencilGuide) (description "Stencil guide hole"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 624BB73E))
+    (comp (ref M2)
+      (value M_StencilGuide)
+      (footprint master-vampire:STENCIL_GUIDE_HOLE)
+      (fields
+        (field (name MPN) DNP)
+        (field (name "MV PN") DNP)
+        (field (name Manufacturer) DNP))
+      (libsource (lib master-vampire) (part M_StencilGuide) (description "Stencil guide hole"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 624BC60C))
     (comp (ref SW2)
       (value CherryMX)
       (footprint CherryMX:SW_Cherry-MX_1U_PCB-Mount_Kailh-Hot-Swap)
@@ -1761,6 +1781,15 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib master-vampire) (part M_StencilGuide)
+      (description "Stencil guide hole")
+      (fields
+        (field (name Reference) M)
+        (field (name Value) M_StencilGuide)
+        (field (name Footprint) master-vampire:STENCIL_GUIDE_HOLE)
+        (field (name Manufacturer) DNP)
+        (field (name MPN) DNP)
+        (field (name "MV PN") DNP)))
     (libpart (lib master-vampire) (part USB-C_Receptacle-24)
       (fields
         (field (name Reference) J)

@@ -1411,4 +1411,38 @@ F 13 "20000-A" H 6615 3699 50  0000 L CNN "MV PN"
 	1    6500 3850
 	1    0    0    -1  
 $EndComp
+Text Notes 7650 7500 0    50   ~ 0
+mvFang 40 Percent Ortholinear Keyboard w Hotswaps PCBA
+Text Notes 7350 7500 0    50   ~ 0
+10001
+$Comp
+L master-vampire:M_StencilGuide M1
+U 1 1 624BB73E
+P 1500 6000
+F 0 "M1" H 1598 6000 50  0000 L CNN
+F 1 "M_StencilGuide" H 1500 5850 50  0001 C CNN
+F 2 "master-vampire:STENCIL_GUIDE_HOLE" H 1500 5850 50  0001 C CNN
+F 3 "" H 1500 5850 50  0001 C CNN
+F 4 "DNP" H 1450 5850 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 1500 5850 50  0001 C CNN "MPN"
+F 6 "DNP" H 1500 5850 50  0001 C CNN "MV PN"
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire:M_StencilGuide M2
+U 1 1 624BC60C
+P 1750 6200
+F 0 "M2" H 1848 6200 50  0000 L CNN
+F 1 "M_StencilGuide" H 1750 6050 50  0001 C CNN
+F 2 "master-vampire:STENCIL_GUIDE_HOLE" H 1750 6050 50  0001 C CNN
+F 3 "" H 1750 6050 50  0001 C CNN
+F 4 "DNP" H 1700 6050 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 1750 6050 50  0001 C CNN "MPN"
+F 6 "DNP" H 1750 6050 50  0001 C CNN "MV PN"
+	1    1750 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 6400 0    50   ~ 0
+Stencil Guides
 $EndSCHEMATC

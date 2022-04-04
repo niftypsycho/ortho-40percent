@@ -606,26 +606,6 @@ F 12 "399-1169-1-ND" H 10650 1850 50  0001 C CNN "Supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L master-vampire_General:C C2
-U 1 1 5F24AB6E
-P 6500 3650
-F 0 "C2" H 6615 3703 50  0000 L CNN
-F 1 "C" H 6500 3900 50  0001 L CNN
-F 2 "ortho-40percent:C_0805" H 5900 3450 50  0001 C CNN
-F 3 "" H 6650 3750 50  0000 C CNN
-F 4 "22pF" H 6615 3604 60  0000 L CNN "Capacitance"
-F 5 "50V" H 7000 3550 60  0001 C CNN "Voltage Rating"
-F 6 "C0G/NP0" H 6800 3500 60  0000 C CNN "TempCo"
-F 7 "±5%" H 7050 3650 60  0001 C CNN "Tolerance"
-F 8 "0805" H 6750 3450 60  0001 C CNN "Package"
-F 9 "C0805C220J5GACTU" H 6550 4000 50  0001 C CNN "MPN"
-F 10 "KEMET" H 6650 4100 50  0001 C CNN "Manufacturer"
-F 11 "DigiKey" H 6750 4200 50  0001 C CNN "Supplier"
-F 12 "399-1113-1-ND" H 6850 4300 50  0001 C CNN "Supplier PN"
-	1    6500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR019
 U 1 1 5F24EA68
 P 8000 2300
@@ -660,10 +640,6 @@ F 8 "Surface Mount" H 8150 3610 50  0001 C CNN "Package"
 $EndComp
 Wire Wire Line
 	6000 3300 5900 3300
-Wire Wire Line
-	6400 3300 6500 3300
-Wire Wire Line
-	6500 3300 6500 3500
 $Comp
 L power:GND #PWR013
 U 1 1 5F25E8F0
@@ -678,16 +654,16 @@ $EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5F25EB3D
-P 6500 3900
-F 0 "#PWR015" H 6500 3650 50  0001 C CNN
-F 1 "GND" H 6500 3775 25  0000 C CNN
-F 2 "" H 6500 3900 50  0001 C CNN
-F 3 "" H 6500 3900 50  0001 C CNN
-	1    6500 3900
+P 6500 4100
+F 0 "#PWR015" H 6500 3850 50  0001 C CNN
+F 1 "GND" H 6500 3975 25  0000 C CNN
+F 2 "" H 6500 4100 50  0001 C CNN
+F 3 "" H 6500 4100 50  0001 C CNN
+	1    6500 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 3900 6500 3800
+	6500 4100 6500 4000
 Wire Wire Line
 	5900 4100 5900 4000
 $Comp
@@ -756,9 +732,6 @@ F 12 "399-1169-1-ND" H 8500 1850 50  0001 C CNN "Supplier PN"
 	1    8150 1200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 3300 6500 3300
-Connection ~ 6500 3300
 Wire Wire Line
 	5900 3100 5900 3300
 $Comp
@@ -1410,4 +1383,66 @@ $EndComp
 Wire Wire Line
 	5900 3300 5900 3700
 Connection ~ 5900 3300
+Wire Wire Line
+	6400 3300 6500 3300
+Wire Wire Line
+	6500 3300 6500 3700
+Connection ~ 6500 3300
+Wire Wire Line
+	6500 3300 8600 3300
+$Comp
+L master-vampire:C C2
+U 1 1 621E57A6
+P 6500 3850
+F 0 "C2" H 6615 4002 50  0000 L CNN
+F 1 "C" H 6500 4100 50  0001 L CNN
+F 2 "master-vampire:C_0805" H 6615 3956 50  0001 L CNN
+F 3 "" H 6650 3950 50  0000 C CNN
+F 4 "22pF" H 6615 3903 60  0000 L CNN "Capacitance"
+F 5 "50V" H 7000 3750 60  0001 C CNN "Voltage Rating"
+F 6 "C0G/NP0" H 6615 3797 60  0000 L CNN "TempCo"
+F 7 "5per" H 7050 3850 60  0001 C CNN "Tolerance"
+F 8 "0805" H 6750 3650 60  0001 C CNN "Package"
+F 9 "C0805C220J5GACTU" H 6550 4200 50  0001 C CNN "MPN"
+F 10 "KEMET" H 6650 4300 50  0001 C CNN "Manufacturer"
+F 11 "DigiKey" H 6750 4400 50  0001 C CNN "Supplier"
+F 12 "399-1113-1-ND" H 6850 4500 50  0001 C CNN "Supplier PN"
+F 13 "20000-A" H 6615 3699 50  0000 L CNN "MV PN"
+	1    6500 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 7650 7500 0    50   ~ 0
+mvFang 40 Percent Ortholinear Keyboard w Hotswaps PCBA
+Text Notes 7350 7500 0    50   ~ 0
+10001
+$Comp
+L master-vampire:M_StencilGuide M?
+U 1 1 624BB73E
+P 1500 6000
+F 0 "M?" H 1598 6000 50  0000 L CNN
+F 1 "M_StencilGuide" H 1500 5850 50  0001 C CNN
+F 2 "master-vampire:STENCIL_GUIDE_HOLE" H 1500 5850 50  0001 C CNN
+F 3 "" H 1500 5850 50  0001 C CNN
+F 4 "DNP" H 1450 5850 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 1500 5850 50  0001 C CNN "MPN"
+F 6 "DNP" H 1500 5850 50  0001 C CNN "MV PN"
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L master-vampire:M_StencilGuide M?
+U 1 1 624BC60C
+P 1750 6200
+F 0 "M?" H 1848 6200 50  0000 L CNN
+F 1 "M_StencilGuide" H 1750 6050 50  0001 C CNN
+F 2 "master-vampire:STENCIL_GUIDE_HOLE" H 1750 6050 50  0001 C CNN
+F 3 "" H 1750 6050 50  0001 C CNN
+F 4 "DNP" H 1700 6050 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 1750 6050 50  0001 C CNN "MPN"
+F 6 "DNP" H 1750 6050 50  0001 C CNN "MV PN"
+	1    1750 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 6400 0    50   ~ 0
+Stencil Guides
 $EndSCHEMATC
