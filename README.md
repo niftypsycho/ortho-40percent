@@ -4,7 +4,7 @@
 INSTRUCTIONS FOR FLASHING  
 If you do not already have QMK MSYS installed do so here: https://msys.qmk.fm/  
 After installing run `qmk setup`  
-Clone the folder labeled mvFang located in the SOFTWARE folder and paste it into qmk_firmware/keyboards  
+Clone the folder labeled mvfang located in the SOFTWARE folder and paste it into qmk_firmware/keyboards  
 Test your environment by running `qmk compile -kb mvfang -km default`. This will compile the default keymap included in the mvfang folder.  
   
 EDITING AND FLASHING YOUR KEYMAP  
