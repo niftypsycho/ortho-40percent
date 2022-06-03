@@ -1,5 +1,7 @@
 # ortho-40percent
- A 40% ortholinear mechanical keyboard with hotswaps. Designed to become familiar with keyboard fabrication and remove the need for soldering.
+ A 40% ortholinear mechanical keyboard with hotswaps. Designed to become familiar with keyboard fabrication and remove the need for soldering.  
+ ![IMG_2475](https://user-images.githubusercontent.com/18726044/171768959-1de3e903-b97e-4b62-a8e8-f2158ed0aadc.JPG)
+
 
 # INSTRUCTIONS FOR FLASHING  
 If you do not already have QMK MSYS installed do so here: https://msys.qmk.fm/  
