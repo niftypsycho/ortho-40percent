@@ -11,6 +11,7 @@ Test your environment by running `qmk compile -kb mvfang -km default`. This will
   
 # EDITING AND FLASHING YOUR KEYMAP  
 mvFang uses a nonstandard row-column setup than most custom keyboards. However, this has been basically abstracted away through the config.h and mvfang.h files. Unless you are absolutely certain you know what you are doing you should never interact with those files.  
+  
 Because this is a hotswap keyboard the option exists to use a single 2u key in the space occupied by the 5th and 6th, and 7th and 8th 1u keys respectively. The config files leave these 2u spaces active as mappable keys during all flashes.  
   
 STEP 1 - Create a new keymap  
